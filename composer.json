@@ -1,0 +1,20 @@
+{
+    "name": "pinguo-fengxingchao/docman",
+    "description": "Postman colllection v2.0 to apidoc.js",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "pinguo-fengxingchao",
+            "email": "fengxingchao@camera360.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+        "symfony/console": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "DocMan\\": "src"
+        }
+    }
+}

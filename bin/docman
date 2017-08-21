@@ -1,0 +1,12 @@
+#!/usr/bin/env php
+<?php
+set_time_limit(0);
+
+include_once __DIR__.'/../vendor/autoload.php';
+
+use Symfony\Component\Console\Application;
+
+use DocMan\Command\DocManCommand;
+$app = new Application('Postman Collection v2.0 to apidoc.js syntax comment', '0.0.1');
+$app->add(new DocManCommand());
+$app->run();
